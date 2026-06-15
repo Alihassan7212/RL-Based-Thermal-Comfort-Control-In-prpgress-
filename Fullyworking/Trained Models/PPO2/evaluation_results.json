@@ -1,0 +1,74 @@
+{
+  "episode_rewards": [
+    -1062.217299760081,
+    -343.27727796963035,
+    -2373.7764415764336,
+    -2431.1937651083217,
+    -1800.2346896012853
+  ],
+  "episode_kpis": [
+    {
+      "tdis_tot": 142.14641416092198,
+      "idis_tot": 0,
+      "ener_tot": 0,
+      "cost_tot": 0,
+      "emis_tot": 0,
+      "pele_tot": 0,
+      "pgas_tot": null,
+      "pdih_tot": null,
+      "time_rat": 9.894397597459033e-06
+    },
+    {
+      "tdis_tot": 114.17190720484986,
+      "idis_tot": 0,
+      "ener_tot": 0,
+      "cost_tot": 0,
+      "emis_tot": 0,
+      "pele_tot": 0,
+      "pgas_tot": null,
+      "pdih_tot": null,
+      "time_rat": 1.0848696369831128e-05
+    },
+    {
+      "tdis_tot": 605.3043781217746,
+      "idis_tot": 0,
+      "ener_tot": 1.739333468172043,
+      "cost_tot": 0.43008315450884893,
+      "emis_tot": 0.29046868918473134,
+      "pele_tot": 0.01761680424564276,
+      "pgas_tot": null,
+      "pdih_tot": null,
+      "time_rat": 1.1289232989576569e-05
+    },
+    {
+      "tdis_tot": 602.0647645784979,
+      "idis_tot": 0,
+      "ener_tot": 1.636613245000965,
+      "cost_tot": 0.4051117865468126,
+      "emis_tot": 0.27331441191516137,
+      "pele_tot": 0.017665920944243595,
+      "pgas_tot": null,
+      "pdih_tot": null,
+      "time_rat": 1.1387851281787395e-05
+    },
+    {
+      "tdis_tot": 404.29226494209746,
+      "idis_tot": 0,
+      "ener_tot": 0.38011574737046544,
+      "cost_tot": 0.09353977315022258,
+      "emis_tot": 0.06347932981086775,
+      "pele_tot": 0.011008733003892187,
+      "pgas_tot": null,
+      "pdih_tot": null,
+      "time_rat": 9.10063455511416e-06
+    }
+  ],
+  "summary": {
+    "avg_reward": -1602.1398948031504,
+    "std_reward": 799.7807605349452,
+    "avg_energy": 0.7512124921086947,
+    "avg_discomfort": 373.5959458016284,
+    "avg_cost": 0.18574694284117682,
+    "avg_emissions": 0.1254524861821521
+  }
+}
