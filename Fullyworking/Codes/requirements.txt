@@ -1,0 +1,10 @@
+# Core Python dependencies used across training, validation, and plotting.
+numpy
+requests
+matplotlib
+gymnasium
+stable-baselines3
+
+# Note:
+# BOPTEST itself is an external service started separately (typically via Docker),
+# so it is not included as a pip-installable requirement here.
