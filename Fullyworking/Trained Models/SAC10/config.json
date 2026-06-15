@@ -1,0 +1,74 @@
+{
+  "algorithm": "SAC",
+  "testcase": "bestest_hydronic_heat_pump",
+  "n_envs": 8,
+  "reward_type": "pbrs",
+  "pbrs_gamma": 0.995,
+  "pbrs_comfort_weight": 10.0,
+  "pbrs_energy_weight": 1.0,
+  "pbrs_E_ref": 0.01,
+  "sac_gamma": 0.995,
+  "total_timesteps": 80000,
+  "effective_env_steps": 640000,
+  "learning_rate": 0.0003,
+  "timestamp": "20260306_163017",
+  "observation_dim": 21,
+  "action_space": "Box(0.0, 1.0, (1,), float32)",
+  "env_params": {
+    "predictive_period": 14400,
+    "predictive_step": 3600,
+    "regressive_period": 0,
+    "max_episode_length": 259200,
+    "step_period": 1800,
+    "warmup_period": 86400,
+    "random_start_time": true,
+    "start_time": 0,
+    "comfort_temp_range": [
+      294.15,
+      297.15
+    ],
+    "use_discrete_actions": false,
+    "scenario": {
+      "electricity_price": "constant"
+    },
+    "observations": {
+      "reaTZon_y": [
+        280.0,
+        310.0
+      ],
+      "TDryBul": [
+        265,
+        303
+      ],
+      "HDirNor": [
+        0,
+        862
+      ]
+    },
+    "use_time_observation": true,
+    "comfort_schedule": [
+      [
+        7,
+        22,
+        [
+          294.15,
+          297.15
+        ]
+      ],
+      [
+        22,
+        7,
+        [
+          293.15,
+          295.15
+        ]
+      ]
+    ],
+    "reward_type": "pbrs",
+    "pbrs_gamma": 0.995,
+    "pbrs_comfort_weight": 10.0,
+    "pbrs_energy_weight": 1.0,
+    "pbrs_E_ref": 0.01,
+    "use_zone_temp_delta": true
+  }
+}
