@@ -1,0 +1,72 @@
+{
+  "algorithm": "PPO",
+  "testcase": "bestest_hydronic_heat_pump",
+  "n_envs": 8,
+  "comfort_weight": 10.0,
+  "price_weight": 20.0,
+  "max_pen": 20.0,
+  "cliff_reward": true,
+  "total_timesteps": 300000,
+  "effective_env_steps": 2400000,
+  "learning_rate": 0.0003,
+  "timestamp": "20260302_111352",
+  "observation_dim": 23,
+  "action_space": "Box(0.0, 1.0, (1,), float32)",
+  "env_params": {
+    "predictive_period": 7200,
+    "regressive_period": 0,
+    "max_episode_length": 259200,
+    "step_period": 1800,
+    "warmup_period": 86400,
+    "comfort_temp_range": [
+      294.15,
+      297.15
+    ],
+    "use_discrete_actions": false,
+    "scenario": {
+      "electricity_price": "highly_dynamic"
+    },
+    "observations": {
+      "reaTZon_y": [
+        280.0,
+        310.0
+      ],
+      "TDryBul": [
+        265,
+        303
+      ],
+      "HDirNor": [
+        0,
+        862
+      ],
+      "PriceElectricPowerHighlyDynamic": [
+        -0.4,
+        0.4
+      ]
+    },
+    "comfort_schedule": [
+      [
+        7,
+        22,
+        [
+          294.15,
+          297.15
+        ]
+      ],
+      [
+        22,
+        7,
+        [
+          293.15,
+          295.15
+        ]
+      ]
+    ],
+    "comfort_weight": 10.0,
+    "price_weight": 20.0,
+    "max_pen": 20.0,
+    "cliff_reward": true,
+    "max_price_per_step": 0.01,
+    "use_zone_temp_delta": true
+  }
+}
